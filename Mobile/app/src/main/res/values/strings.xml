@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Conversor de Moedas</string>
+    <string-array name="world_coin">
+        <item><em>Escolha a Moeda</em></item>
+        <item>Dollar:$</item>
+        <item>Yene:¥</item>
+        <item>Euro:€</item>
+    </string-array>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TxtViewPromo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cotação num instante !"
+        android:textColor="#C8121212"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:entries="@array/world_coin"
+        android:textAlignment="textStart"
+        android:spinnerMode="dialog"
+        />
+
+    <TextView
+        android:id="@+id/textViewMoedaEscolhida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moeda Escolhida"
+        android:textColor="#B0151515"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:ems="10"
+        android:entries="@array/world_coin"
+        android:inputType="numberDecimal"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewMoeda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moeda Brasileira"
+        android:textColor="#B0151515"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textView_result_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#C8121212"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+</LinearLayout>
